@@ -47,7 +47,6 @@ end
 group :development do
   gem 'better_errors'
 end
-gem 'devise'
 gem 'foundation-rails'
 
 gem 'react-rails'
