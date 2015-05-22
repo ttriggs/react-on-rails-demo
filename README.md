@@ -8,3 +8,9 @@ practice with react on rails
 - to do list
 - tic tac toe?
 -
+
+
+### Activity log:
+5/22 - initial setup, scoping out tuts:
+  https://hackhands.com/react-rails-tutorial/
+
