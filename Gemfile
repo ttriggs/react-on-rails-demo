@@ -50,5 +50,5 @@ end
 gem 'foundation-rails'
 
 gem 'react-rails'
-gem 'showdown-rails'
 
+gem 'marked-rails'
