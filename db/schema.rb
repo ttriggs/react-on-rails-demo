@@ -17,15 +17,19 @@ ActiveRecord::Schema.define(version: 20150522054954) do
   enable_extension "plpgsql"
 
   create_table "answers", force: :cascade do |t|
-    t.string  "author",             null: false
-    t.text    "body",               null: false
-    t.integer "votes",  default: 0
+    t.string   "author",                 null: false
+    t.text     "text",                   null: false
+    t.integer  "votes",      default: 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string  "author",             null: false
-    t.text    "body",               null: false
-    t.integer "votes",  default: 0
+    t.string   "author",                 null: false
+    t.text     "text",                   null: false
+    t.integer  "votes",      default: 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
