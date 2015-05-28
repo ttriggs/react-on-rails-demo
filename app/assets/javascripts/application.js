@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require foundation
 //= require react
-//= require_tree .
+//= require react_ujs
+//= require components
+//= require marked
 
 $(function(){ $(document).foundation(); });
